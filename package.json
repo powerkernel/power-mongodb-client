@@ -1,0 +1,52 @@
+{
+  "name": "@powerkernel/power-mongodb-client",
+  "version": "0.1.0",
+  "description": "MongoDB client used by Power Kernel projects",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "release": "npx standard-version && git push --follow-tags origin main",
+    "test": "jest --coverage --detectOpenHandles",
+    "build": "npm run clean && tsc",
+    "clean": "del ./dist/*",
+    "lint": "eslint ./src --ext .ts --fix",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "power",
+    "kernel",
+    "mongodb",
+    "client"
+  ],
+  "author": {
+    "name": "Harry Tang",
+    "email": "harry@powerkernel.com",
+    "url": "https://powerkernel.com"
+  },
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "16.0.2",
+    "@commitlint/config-conventional": "16.0.0",
+    "@types/jest": "27.4.0",
+    "@typescript-eslint/eslint-plugin": "5.9.1",
+    "@typescript-eslint/parser": "5.9.1",
+    "del-cli": "4.0.1",
+    "eslint": "8.6.0",
+    "eslint-config-prettier": "8.3.0",
+    "husky": "7.0.4",
+    "jest": "27.4.7",
+    "mongodb-memory-server-core": "^8.1.0",
+    "prettier": "2.5.1",
+    "ts-jest": "27.1.2",
+    "typescript": "4.5.4"
+  },
+  "dependencies": {
+    "mongodb": "4.3.0"
+  }
+}
