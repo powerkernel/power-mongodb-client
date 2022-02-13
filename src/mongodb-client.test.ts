@@ -20,26 +20,26 @@ afterAll(async () => {
   }
 });
 
-it('throws error when getting the Db without connecting first', async () => {
+it('should throw error when getting the Db without connecting first', async () => {
   expect(() => {
     MongoDbClient.db;
   }).toThrow();
 });
 
-it('generates UUID object from UUID string', () => {
+it('should generate an UUID object from UUID string', () => {
   const uuidString = '63cd4ac5-6664-4247-8854-28bc8871da5e';
   const uuidObject = MongoDbClient.createUuid(uuidString);
   expect(uuidObject).toBeInstanceOf(Binary);
 });
 
-it('generates UUID string from UUID object', () => {
+it('should generate an UUID string from UUID object', () => {
   const uuidString = '63cd4ac5-6664-4247-8854-28bc8871da5e';
   const uuidObject = MongoDbClient.createUuid(uuidString);
   const result = MongoDbClient.stringifyUuid(uuidObject);
   expect(result).toEqual(uuidString);
 });
 
-it('connects to the MongoDB server', async () => {
+it('should connect to the MongoDB server', async () => {
   try {
     await MongoDbClient.connect({
       dbUri: mongoServer.getUri(),
@@ -51,7 +51,7 @@ it('connects to the MongoDB server', async () => {
   }
 });
 
-it('returns the Db', async () => {
+it('should return the Db instance', async () => {
   try {
     await MongoDbClient.connect({
       dbUri: mongoServer.getUri(),
