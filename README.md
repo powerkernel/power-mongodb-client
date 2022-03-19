@@ -1,3 +1,3 @@
-# power-mongodb-client
+# mongodb-client
 
 MongoDB client used by Power Kernel projects
