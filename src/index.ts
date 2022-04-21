@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2022 Power Kernel
  */
 
-import MongoDbClient from './mongodb-client';
-import MongoDbConfig from './mongodb-config';
+import MongoDbClient from "./mongodb-client";
+import MongoDbConfig from "./mongodb-config";
 
 export { MongoDbConfig, MongoDbClient };
