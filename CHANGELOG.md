@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/powerkernel/mongodb-client/compare/v1.0.1...v1.0.2) (2022-04-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency mongodb to v4.5.0 ([f8dd344](https://github.com/powerkernel/mongodb-client/commit/f8dd344359a5f32c205c5cead59b72cd66380fd7))
+
 ### [1.0.1](https://github.com/powerkernel/mongodb-client/compare/v1.0.0...v1.0.1) (2022-03-19)
 
 
