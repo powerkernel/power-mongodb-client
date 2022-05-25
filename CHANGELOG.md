@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/powerkernel/mongodb-client/compare/v1.0.3...v1.0.4) (2022-05-25)
+
+
+### Others
+
+* **deps:** update dependency @commitlint/cli to v17.0.1 ([951f075](https://github.com/powerkernel/mongodb-client/commit/951f0757263b0aa75ddd783c6b152ae202a1cbdc))
+
 ### [1.0.3](https://github.com/powerkernel/mongodb-client/compare/v1.0.2...v1.0.3) (2022-05-25)
 
 

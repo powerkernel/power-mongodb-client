@@ -1,6 +1,6 @@
 {
   "name": "@powerkernel/mongodb-client",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MongoDB client used by Power Kernel projects",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
