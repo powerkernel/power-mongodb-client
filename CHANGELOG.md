@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/powerkernel/mongodb-client/compare/v1.0.4...v1.0.5) (2022-05-30)
+
+
+### Others
+
+* **deps:** update typescript-eslint monorepo to v5.27.0 ([#72](https://github.com/powerkernel/mongodb-client/issues/72)) ([69b6f18](https://github.com/powerkernel/mongodb-client/commit/69b6f18c6513ebd7e9dbcf513cf4a14e5e9006d9))
+
 ### [1.0.4](https://github.com/powerkernel/mongodb-client/compare/v1.0.3...v1.0.4) (2022-05-25)
 
 
