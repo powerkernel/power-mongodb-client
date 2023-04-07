@@ -44,7 +44,7 @@
     "mongodb-memory-server-core": "8.12.2",
     "prettier": "2.8.7",
     "ts-jest": "29.1.0",
-    "typescript": "5.0.3"
+    "typescript": "5.0.4"
   },
   "dependencies": {
     "mongodb": "4.15.0"
