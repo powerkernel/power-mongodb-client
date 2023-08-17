@@ -47,6 +47,6 @@
     "typescript": "5.1.6"
   },
   "dependencies": {
-    "mongodb": "4.16.0"
+    "mongodb": "4.17.0"
   }
 }
